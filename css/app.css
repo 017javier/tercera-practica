@@ -1,0 +1,93 @@
+:root{
+    --bs-gris: #e8fdd8;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'poppins';
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+h1, h2, h3, h4, h5{
+    font-family: 'castoro';
+}
+h1{
+    font-size: 5rem;
+}
+a{
+    font-family: 'castoro';
+}
+h2{
+    font-size: 3.5rem;
+    
+}
+.fondo--gris{
+    background-color: var(--bs-gris);
+    border-radius: 3rem;
+}
+.fondo--verde{
+    background-color: var(--bs-gris);
+}
+.img-one{
+    border-radius: 50px 0 0 0;
+}
+.img-two{
+    border-radius: 0 0 50px 0;
+}
+.text--primero{
+    animation-name: moveup;
+    animation-duration: 3s;
+}
+@keyframes moveup {
+    0% {
+        opacity: 0;
+        transform: translateY(300px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.text--segundo{
+    animation-name: moveupp;
+    animation-duration: 3s;
+}
+@keyframes moveupp {
+    0% {
+        opacity: 0;
+        transform: translateY(400px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.text--tercero{
+    animation-name: move;
+    animation-duration: 3s;
+}
+@keyframes move{
+    0% {
+        opacity: 0;
+        transform: translateY(450px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.img--anime{
+    animation-name: movede;
+    animation-duration: 3s;
+}
+@keyframes movede {
+    0%{
+        opacity: 0;
+        transform: translateX(400px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
